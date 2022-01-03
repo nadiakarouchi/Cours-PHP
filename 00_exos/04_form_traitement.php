@@ -43,8 +43,8 @@
                     //fabrication d'un fichier texte en l'absence de BDD
                     $file = fopen('formulaire.txt', 'a'); // fopen() en mode "a" permet de créer un fichier s'il n'existe pas encore, sinon cela permet de l'ouvrir
                     
-                    $informations = $_POST['prenom']. " " .$_POST['nom']. " email : " .$_POST['email']. "  adresse : " .$_POST['adresse']. 
-                    " code postal : " .$_POST['code_postal']. "  ville : " .$_POST['ville']. "\n"; "\n"; // \n pour faire des sauts de ligne dans le .txt
+                    $informations = "informations recu :" .$_POST['prenom']. "- " .$_POST['nom']. "- email : " .$_POST['email']. "  -adresse : " .$_POST['adresse']. 
+                    " -code postal : " .$_POST['code_postal']. "  -ville : " .$_POST['ville']. "\n"; "\n"; // \n pour faire des sauts de ligne dans le .txt
                     
                     fwrite($file, $informations);
             

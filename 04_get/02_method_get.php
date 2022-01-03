@@ -11,7 +11,7 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
-    <title>CoursPHP - 03 conditions</title>
+    <title>CoursPHP - 04 methode get</title>
     <!-- mes styles -->
     <link rel="stylesheet" href="../css/style.css">
 
@@ -43,7 +43,7 @@
             </div>
             <!-- fin col  -->
             <div class="card col-sm-12 col-md-6" style="width: 18rem;">
-                <img src="../img/nadia.png" class="card-img-top" alt="img nadia">
+                <img src="../img/" class="card-img-top" alt="img nadia">
                 <div class="card-body">
                     <h5 class="card-title"><?php
                                             echo $_GET['article'];
